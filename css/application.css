@@ -22,7 +22,7 @@ body{
 .word span{
 	border: 1px solid #999999 ;
 	border-radius: 5px;
-	width: 260%;
+	width: 240px;
 	display: inline-block;
 	padding: 5px;
 	font-size: 16pt;
@@ -35,7 +35,7 @@ body{
 .example span, .definition span {
 	border: 1px solid #999999;
 	border-radius: 5px;
-	width: 260%;
+	width: 240px;
 	display: inline-block;
 	padding: 5px;
 	font-style:italic;
@@ -47,7 +47,7 @@ body{
 
 
 .word, .example, .definition {
-	width: 290%;
+	width: 290px;
 	margin: 0 15px;
 	text-shadow: none;
 	text-align: center;
