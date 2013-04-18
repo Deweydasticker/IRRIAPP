@@ -23,7 +23,6 @@ body{
 	border: 1px solid #999999 ;
 	border-radius: 5px;
 	width: calc(100% - 60px);
-	margin-top: 10px;
 	display: inline-block;
 	padding: 5px;
 	font-size: 16pt;
@@ -37,13 +36,13 @@ body{
 	border: 1px solid #999999;
 	border-radius: 5px;
 	width: calc(100% - 60px);
-	margin-top: 10px;
 	display: inline-block;
 	padding: 5px;
 	font-style:italic;
 	background: C7C7C7;
 	color: black;
 	font-size: 11pt;
+	vertical-align: middle;
 }
 
 
@@ -52,6 +51,7 @@ body{
 	margin: 0 15px;
 	text-shadow: none;
 	text-align: center;
+	margin-top: 10px;
 }
 
 #image{
@@ -83,6 +83,7 @@ body{
 .letter {
 	width: 20px;
 	display: inline-block;
+	height: 100%;
 	font-weight: bold;
 	font-size: 10pt;
 }
