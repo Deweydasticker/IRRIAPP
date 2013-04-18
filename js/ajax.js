@@ -1,7 +1,6 @@
 /**
  * @author Dewey
  */
-<script type="text/javascript">
    $(function() { // execute on document ready
        $('#refreshButton').click( function() { // add the click event handler to button
        	console.log("test");
@@ -11,4 +10,3 @@
           });
        });
    });
-</script>
