@@ -1,9 +1,64 @@
+#header{
+    height: 20px;
+    position:relative;
+}
+
+.head {
+    position:absolute;
+    top:0px;
+}
+
 #main {
 	margin-left: auto;
     margin-right: auto;
-    width: 6em
+    text-align: center;
 }
 
-.word {
-	color: red;
+body{
+	background: white;
+	font-family:"Calibri";	
 }
+
+.word span{
+	border: 1px solid black ;
+	border-radius: 5px;
+	width: calc(100% - 40px);
+	margin-top: 10px;
+	display: inline-block;
+	padding: 5px;
+	font-family:"Verdana";
+	font-weight:bold;
+	background: gray;
+	color: black;
+}
+
+.example span, .definition span {
+	border: 1px solid black ;
+	border-radius: 5px;
+	width: calc(100% - 40px);
+	margin-top: 10px;
+	display: inline-block;
+	padding: 5px;
+	font-family:"Verdana";
+	font-style:italic;
+	background: gray;
+	color: black;
+}
+
+
+.word, .example, .definition {
+	width: 100% -30px;
+	margin: 0 15px;
+	text-shadow: none;
+	text-align: center;
+}
+
+.refresh{
+	margin-top: 30px;
+}
+
+#image{
+	max-width: 100%;
+	max-height: 300px;
+}
+
